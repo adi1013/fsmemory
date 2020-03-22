@@ -1,0 +1,11 @@
+server:
+  port: 7001
+
+spring:
+  profiles:
+    include:
+      - mybatis
+      - shiro
+      - eureka
+  application:
+    name: fsmemory-uim
